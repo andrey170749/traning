@@ -4,5 +4,48 @@ body {
 
 #wrapper {
 	width: 1025px;
-	margin: 0px auto;
+	margin: 20px auto;
+}
+
+#header {
+	width: 1025px;
+	height: 44px;
+	/*border: 1px solid red;*/
+	border-radius: 2px 2px 0 0;
+	background-color: #b2b1b1;
+	border-bottom: 1px solid #757575;
+}
+
+#left {
+/*	border: 1px solid green;*/
+	float: left;
+	margin: 8px 0 0 35px;
+}
+
+#left img {
+	display: block;
+	float: left;
+}
+
+#left div {
+	font: 16px Verdana, sans-serif;
+	color: #747474;
+	text-shadow: 1px 1px 2px white;
+	float: left;
+	margin: 3px 0 0 4px;
+}
+
+#right {
+	float: right;
+/*	border: 1px solid red;*/
+	padding-right: 7px;
+
+}
+
+#right ul li {
+	list-style: none;
+	float: left;
+	margin-left: 6px;
+	position: relative;
+	bottom: 6px;
 }
