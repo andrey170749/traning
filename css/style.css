@@ -49,3 +49,19 @@ body {
 	position: relative;
 	bottom: 6px;
 }
+
+#content {
+	height: 776px;
+	border-top: 1px solid #cfcfcf;
+/*	border: 1px solid red;*/
+	background: #b2b1b1; /* Для старых браузров */
+    background: -moz-linear-gradient(top, #b2b1b1, #cfcfcf); /* Firefox 3.6+ */
+    /* Chrome 1-9, Safari 4-5 */
+    background: -webkit-gradient(linear, left top, left bottom, 
+                color-stop(0%,#b2b1b1), color-stop(100%,#b2b1b1));
+    /* Chrome 10+, Safari 5.1+ */
+    background: -webkit-linear-gradient(top, #b2b1b1, #cfcfcf);
+    background: -o-linear-gradient(top, #b2b1b1, #cfcfcf); /* Opera 11.10+ */
+    background: -ms-linear-gradient(top, #b2b1b1, #cfcfcf); /* IE10 */
+    background: linear-gradient(top, #b2b1b1, #cfcfcf); /* CSS3 */ 
+}
