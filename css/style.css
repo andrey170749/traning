@@ -102,6 +102,48 @@ body {
 	margin: 40px auto 0 auto;
 }
 
+#content .right .icons .top {
+	height: 122px;
+	background: #b2b1b1; /* Для старых браузров */
+    background: -moz-linear-gradient(top, #d6d5d5, #efefef); /* Firefox 3.6+ */
+    background: -webkit-gradient(linear, left top, left bottom, 
+                color-stop(0%,#d6d5d5), color-stop(100%,#efefef));
+    background: -webkit-linear-gradient(top, #d6d5d5, #efefef);
+    background: -o-linear-gradient(top, #d6d5d5, #efefef); /* Opera 11.10+ */
+    background: -ms-linear-gradient(top, #d6d5d5, #efefef); /* IE10 */
+    background: linear-gradient(top, #d6d5d5, #efefef); /* CSS3 */ 
+    border-bottom: 1px solid #e1e1e1;
+    padding-left: 3px;
+}
+
+#content .right .icons .top h2 {
+	font: 22px Verdana;
+	color: #747474;
+	text-shadow: 1px 1px 2px white;
+	position: relative;
+    top:25px;
+    left: 83px;
+}
+
+#content .right .icons .top ul li {
+	float: left;
+	list-style: none;
+	margin: 27px 0 0 5px;
+}
+
+#content .right .icons .bottom {
+	height: 92px;
+	border-top: 1px solid white;
+	background: #e0e0e0; /* Для старых браузров */
+    background: -moz-linear-gradient(top, #dcdcdc, #dfdfdf); /* Firefox 3.6+ */
+    background: -webkit-gradient(linear, left top, left bottom, 
+                color-stop(0%,#dcdcdc), color-stop(100%,#dfdfdf));
+    background: -webkit-linear-gradient(top, #dcdcdc, #dfdfdf);
+    background: -o-linear-gradient(top, #dcdcdc, #dfdfdf); /* Opera 11.10+ */
+    background: -ms-linear-gradient(top, #dcdcdc, #dfdfdf); /* IE10 */
+    background: linear-gradient(top, #dcdcdc, #dfdfdf); /* CSS3 */ 
+}
+
 #undercontent {
 	border-top: 1px solid white;
  	border-bottom: 1px solid #373737;
