@@ -358,25 +358,66 @@ body {
 }
 
 #black_content .right {
-	height: 100%;
+	height: 622px;
 	border-left: 1px solid #898888;
-	padding: 89px 35px 23px 47px;
+	padding: 42px 0 0 0;
 }
 
 #black_content .right .top {
-	/*border: 1px solid red;*/
+	border-bottom: 1px solid #272626;
 }
 
 #black_content .right .top img {
 	float: left;
-	margin: 21px 0 0 0;
+	margin-left: 47px;
 }
 
 #black_content .right .top h1 {
 	font: 47px Verdana, sans-serif;
 	text-shadow: 1px 1px 1px #a8a5a5; 
 	color: #201E1E;
-	margin: 0;
+	margin:0px 0px 0px 0px ;
+	position: relative;
+	top:-20px;
+}
+
+#black_content .right .top p {
+	margin:-10px 32px 30px 47px;
+}
+
+#black_content .right .center {
+	border-top: 1px solid #5b5b5b;
+	margin-top: 1px;
+	padding: 28px 0 0 0;
+}
+#black_content .right .center h1 {
+	margin: 0px 0px 0px 47px;
+	font: 47px Verdana, sans-serif;
+	color:#dddcdc;
+	text-shadow: 0 0 2px #bebdbd;
+	float: left;
+}
+
+#black_content .right .center img {
+	margin-left: 12px;
+
+}
+
+#black_content .right .center p{
+	margin:12px 32px 0px 47px;
+}
+
+#black_content .right .bottom {
+	margin-top: 28px;
+}
+
+#black_content .right .bottom .bottom_pictures {
+	float: left;
+	/*border: 1px solid red;*/
+	margin: 25px 0 0  48px;
+	text-align: center;
+	font: 14px Arial, sans-serif;
+	color: #fff;
 }
 
 #black_content .right p {
