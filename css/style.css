@@ -387,11 +387,15 @@ body {
 
 #black_content .right .bottom .bottom_pictures {
 	float: left;
-	/*border: 1px solid red;*/
+/*	border: 1px solid red;*/
 	margin: 25px 0 0  48px;
 	text-align: center;
 	font: 14px Arial, sans-serif;
 	color: #fff;
+}
+
+#black_content .right .bottom .bottom_pictures h1 {
+	margin-top: 0;
 }
 
 #black_content .right p {
@@ -421,4 +425,8 @@ body {
 #footer img {
 	float: right;
 	margin: 83px 20px 0 0;
+}
+
+.reflect {
+    position: relative;
 }
